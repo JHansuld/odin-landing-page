@@ -1,6 +1,10 @@
 /* color palette 
 #F0EAD2 #DDE5B6 #ADC178 #A98467 #6C584C*/
 
+body{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 header{
     background-color: #6c584c;
     display: flex;
@@ -11,15 +15,53 @@ header{
 h1, nav a{
     text-decoration: none;
     color: #ADC178;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1{
-    font-size: 40px;;
+    font-size: 24px;
 }
 
 nav{
-    font-size: 25px;
+    font-size: 18px;
     display: flex;
     gap: 15px;
+}
+
+.hero{
+    background-color: #6c584c;
+    color: #ADC178;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 325px;
+    padding: 70px;
+}
+
+.herotext{
+    max-width: 400px;
+}
+
+h2{
+    margin: 0px;
+    font-size: 48px;
+}
+
+.herosub{
+    font-size: 18px;
+}
+
+.herotext button{
+    background-color: #DDE5B6;
+    color: #6c584c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#teabath{
+    height: auto;
+    width: 400px;
 }
