@@ -65,3 +65,37 @@ h2{
     height: auto;
     width: 400px;
 }
+
+.infosection{
+    color: #6c584c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.infoheader{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.actualinfo{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0px;
+    padding: 70px;
+}
+
+.info{
+        width: 200px;
+        text-align: center;
+}
+
+.info p{
+    font-size: 18px;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+}
