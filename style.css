@@ -161,3 +161,18 @@ button{
     border-width: 2px;
     border-color: white;
 }
+
+footer{
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    background-color: #6c584c;
+    color: #ADC178;
+    text-decoration-line: none;
+    font-size: 18px;
+}
+
+footer a{
+    text-decoration-line: none;
+    color: #ADC178;
+}
